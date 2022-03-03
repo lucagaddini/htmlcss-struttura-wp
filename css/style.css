@@ -11,9 +11,9 @@
 }
 
 .container{
-  width: 80%;
+  width: 70%;
   margin: auto;
-  background-color: crimson;
+  background-color: white;
 }
 
 
@@ -35,4 +35,12 @@ main{
 .banner{
   height: 450px;
   background-color: #e1d77a;
+}
+
+.top-margin{
+  margin-top: 20px;
+}
+
+.top-margin-half{
+  margin-top: 7.5px;
 }

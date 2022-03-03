@@ -28,8 +28,10 @@ footer{
 }
 
 main{
-  height: 600px;
   background-color: #abcfe6;
+
+  /* Da togliere successivamente */
+  height: 600px;
 }
 
 .banner{
@@ -43,4 +45,30 @@ main{
 
 .top-margin-half{
   margin-top: 7.5px;
+}
+
+.top-main{
+  margin-bottom: 10px;
+
+  /* Da togliere successivamente */
+  height: 30px;
+}
+
+.col{
+  float: left;
+  background-color: orange;
+}
+
+aside{
+  width: 20%;
+
+  /* Da togliere successivamente */
+  height: 80px;
+}
+
+.mid-col{
+  width: 60%;
+  
+  /* Da togliere successivamente */
+  height: 80px;
 }

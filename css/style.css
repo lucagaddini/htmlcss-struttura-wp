@@ -1,0 +1,34 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  }
+
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+  height: 800px;
+  background-color: crimson;
+}
+
+
+header{
+  height: 150px;
+  background-color: #e579e6;
+}
+
+footer{
+  height: 50px;
+  background-color: #8802fe;
+}
+
+.banner{
+  height: 500px;
+  background-color: #e1d77a;
+}

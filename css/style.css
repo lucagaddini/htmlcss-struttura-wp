@@ -13,7 +13,6 @@
 .container{
   width: 80%;
   margin: auto;
-  height: 800px;
   background-color: crimson;
 }
 
@@ -28,7 +27,12 @@ footer{
   background-color: #8802fe;
 }
 
-.banner{
+main{
   height: 500px;
+  background-color: #abcfe6;
+}
+
+.banner{
+  height: 350px;
   background-color: #e1d77a;
 }

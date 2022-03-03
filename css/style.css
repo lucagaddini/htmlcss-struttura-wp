@@ -18,7 +18,7 @@
 
 
 header{
-  height: 150px;
+  height: 120px;
   background-color: #e579e6;
 }
 
@@ -28,11 +28,11 @@ footer{
 }
 
 main{
-  height: 500px;
+  height: 600px;
   background-color: #abcfe6;
 }
 
 .banner{
-  height: 350px;
+  height: 450px;
   background-color: #e1d77a;
 }

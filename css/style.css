@@ -1,3 +1,7 @@
+/* 
+GENERAL
+*/
+
 *{
   margin: 0;
   padding:0;
@@ -16,27 +20,33 @@
   background-color: white;
 }
 
-
 header{
   height: 120px;
+   /* Da togliere successivamente */
   background-color: #e579e6;
 }
 
 footer{
   height: 50px;
+   /* Da togliere successivamente */
   background-color: #8802fe;
+  margin-bottom: 20px;
 }
 
 main{
-  background-color: #abcfe6;
-
+  
   /* Da togliere successivamente */
+  background-color: #0283fe;
   height: 600px;
 }
 
-.banner{
-  height: 450px;
-  background-color: #e1d77a;
+/* 
+UTILITY CLASS
+*/
+
+.col{
+  float: left;
+  background-color: orange;
 }
 
 .top-margin{
@@ -45,30 +55,44 @@ main{
 
 .top-margin-half{
   margin-top: 7.5px;
+
 }
+
+
+/* 
+BODY
+*/
+
+.banner{
+  height: 450px;
+  background-color: #e1d77a;
+}
+
+
+/* Da togliere successivamente */
+.top-main, .col{
+background-color: #abcfe6;
+}
+/* /Da togliere successivamente */
+
 
 .top-main{
-  margin-bottom: 10px;
 
   /* Da togliere successivamente */
-  height: 30px;
-}
-
-.col{
-  float: left;
-  background-color: orange;
+  height: 50px;
 }
 
 aside{
-  width: 20%;
-
+  width: 19%;
+  margin: 20px 0;
   /* Da togliere successivamente */
   height: 80px;
 }
 
 .mid-col{
   width: 60%;
-  
+  margin: 20px 1%;
+
   /* Da togliere successivamente */
   height: 80px;
 }

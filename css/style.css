@@ -49,18 +49,18 @@ UTILITY CLASS
   background-color: orange;
 }
 
-.top-margin{
-  margin-top: 20px;
+.bottom-margin{
+  margin-bottom: 20px;
 }
 
-.top-margin-half{
-  margin-top: 7.5px;
+.bottom-margin-half{
+  margin-bottom: 7.5px;
 
 }
 
 
 /* 
-BODY
+MAIN
 */
 
 .banner{
@@ -71,7 +71,7 @@ BODY
 
 /* Da togliere successivamente */
 .top-main, .col{
-background-color: #abcfe6;
+  background-color: #abcfe6;
 }
 /* /Da togliere successivamente */
 
@@ -85,8 +85,9 @@ background-color: #abcfe6;
 aside{
   width: 19%;
   margin: 20px 0;
+  
   /* Da togliere successivamente */
-  height: 80px;
+  height: 500px;
 }
 
 .mid-col{
@@ -94,5 +95,5 @@ aside{
   margin: 20px 1%;
 
   /* Da togliere successivamente */
-  height: 80px;
+  height: 500px;
 }
